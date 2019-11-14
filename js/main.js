@@ -207,7 +207,15 @@
 //
 //        lastScrollTop = st;
 //    }
-    
+
+$(window).on("scroll", function() {
+	if($(window).scrollTop() > 50) {
+		$("header").addClass('headerWhite');
+	} else {
+		//remove the background property so it comes transparent again (defined in your css)
+	   $("header").removeClass('headerWhite');
+	}
+});
 
 // Hide Header on on scroll down
 var didScroll;
@@ -226,13 +234,16 @@ setInterval(function() {
     }
 }, 250);
 
+
 function hasScrolled() {
     var st = $(window).scrollTop();
-    
-    console.log(st, lastScrollTop, navbarHeight);
+	
+	if ($('header'))
+
+    // console.log(st, lastScrollTop, navbarHeight);
     
     // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
+	// This is necessary so you never see what is "behind" the navbar.
     
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
@@ -242,7 +253,7 @@ function hasScrolled() {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
 //             console.log("remove class");
-            $('header').removeClass('nav-up').addClass('nav-down');
+			$('header').removeClass('nav-up').addClass('nav-down');
         }
     }
     

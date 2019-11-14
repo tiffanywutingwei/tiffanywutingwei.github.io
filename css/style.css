@@ -138,6 +138,7 @@ figure {
 .fh5co-hero {
   position: relative;
   height: 500px;
+  top: -95px;
 }
 
 .image-shadow {
@@ -214,7 +215,7 @@ figure {
   opacity: .9;
 }
 .fh5co-cover.fh5co-cover_2 {
-  height: 650px;
+  height: 700px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
@@ -226,7 +227,6 @@ figure {
   top: 50%;
   position: absolute;
   width: 100%;
-  margin-top: -70px;
   z-index: 2;
   color: #fff;
 }
@@ -399,7 +399,7 @@ figure {
   left: 0;
   width: 100%;
   z-index: 2;
-  background: white;
+  /* background: white; */
 }
 
 body {
@@ -412,12 +412,13 @@ header {
     top: 0;
     transition: top 0.2s ease-in-out;
     width: 100%;
-    background: white;
 }
+
 
 .nav-up {
     top: -95px;
 }
+
 
 .nav-header {
   position: relative;
@@ -425,6 +426,10 @@ header {
   width: 100%;
 }
 
+.headerWhite {
+  background: #FFFFFF;
+  transition: 0.15s linear all;
+}
 
 
 #fh5co-logo {
@@ -724,7 +729,7 @@ header {
 }
 
 #fh5co-project {
-  padding-top: 5em;
+  /* padding-top: 5em; */
   padding-bottom: 5em;
 }
 
@@ -1050,7 +1055,7 @@ header {
 }
 
 #fh5co-wrapper {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   position: relative;
 }
 
