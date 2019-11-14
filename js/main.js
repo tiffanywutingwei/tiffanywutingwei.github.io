@@ -146,7 +146,7 @@
           var scrolled = (winScroll / height) * 100;
         
           var scrollColor = document.getElementById("projectColor").style.backgroundColor;
-        
+		  
          
          $('div#scroll-bar').width(scrolled + "%");
 		$('div#scroll-bar').css("background-color", scrollColor);
