@@ -729,10 +729,13 @@ header {
 }
 
 #fh5co-project {
-  /* padding-top: 5em; */
+  padding-top: 5em;
   padding-bottom: 5em;
 }
 
+.fh5co-project-overview {
+  padding-top: 0;
+}
 
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-about, #fh5co-contact {
