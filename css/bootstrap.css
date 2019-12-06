@@ -7328,7 +7328,7 @@ button.close {
 .filter-button
 {
   font-size: 18px;
-  border: 1px solid #FCC72C;
+  border: 1px solid #212831;
   border-radius: 5px;
   text-align: center;
   color: #000000;
@@ -7338,16 +7338,16 @@ button.close {
 .filter-button:hover
 {
   font-size: 18px;
-  border: 1px solid #FCC72C;
+  border: 1px solid #212831;
   border-radius: 5px;
   text-align: center;
   color: #ffffff;
-  background-color: #FCC72C;
+  background-color: #212831;
 
 }
 .btn-default:active .filter-button:active
 {
-  background-color: #FCC72C;
+  background-color: #212831;
   color: white;
 }
 
