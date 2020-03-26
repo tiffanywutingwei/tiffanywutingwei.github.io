@@ -226,13 +226,11 @@ figure {
 .fh5co-cover .desc {
   top: 50%;
   position: absolute;
-  width: 100%;
   z-index: 2;
-  color: #fff;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc {
-    padding-left: 15px;
+    padding-left: 30px;
     padding-right: 15px;
   }
 }
@@ -1007,17 +1005,17 @@ header {
 }
 
 #footer {
-  background: #222831;
+  /* background: #222831; */
   padding: 60px 0 40px;
 }
 #footer p {
-  color: rgba(255, 255, 255, 0.3);
+  /* color: rgba(255, 255, 255, 0.3); */
   letter-spacing: 1px;
   font-size: 14px;
   text-transform: uppercase;
 }
 #footer p a {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
 }
 
 .btn {
@@ -1045,7 +1043,7 @@ header {
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
+  background: #4d4f51 !important;
   color: #fff;
   outline: none !important;
 }
