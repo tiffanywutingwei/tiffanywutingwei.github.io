@@ -134,17 +134,26 @@ figure {
 
 
 
-.fh5co-cover,
-.fh5co-hero {
+.image-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fh5co-cover, .fh5co-hero {
   position: relative;
   height: 500px;
   top: -95px;
 }
 
-.image-shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.fh5co-project-title {
+  text-align: center;
+  padding-top: 95px;
+  margin-bottom: 5em;
 }
 
+.fh5co-project-title h2 {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -183,6 +192,8 @@ figure {
 .fh5co-cover {
   background-size: cover;
   position: relative;
+  background-repeat:no-repeat;
+  background-position: center center;
 }
 
 .fh5co-cover .intro h2 {
@@ -195,18 +206,18 @@ figure {
   color: #616161;
 }
 
-.fh5co-cover .intro hr {
+.fh5co-project-title hr {
   content: '';
   bottom: 0;
   width: 100px;
   height: 2px;
   background: #212831;
-  text-align: left;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -215,11 +226,11 @@ figure {
   opacity: .9;
 }
 .fh5co-cover.fh5co-cover_2 {
-  height: 700px;
+  height: 900px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -648,6 +659,7 @@ header {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
+
 @media screen and (max-width: 480px) {
   .fh5co-grid {
     height: 400px;
@@ -734,6 +746,7 @@ header {
 .fh5co-project-overview {
   padding-top: 0;
 }
+
 
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-about, #fh5co-contact {
@@ -1338,5 +1351,5 @@ div#scroll-bar {
   top: 0;
   left: 0;
   width: 0;
-  height: 6px;
+  height: 4px;
 }
