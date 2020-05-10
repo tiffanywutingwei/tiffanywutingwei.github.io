@@ -154,68 +154,14 @@
     });
     
 
-	//navbar transition.
-//    window.onscroll = () => {
-//        const nav = document.querySelector('#fh5co-header-section');
-//        if(window.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
-//    };
-//
-//    var nav = $('.content-nav');
-    // Hide Header on on scroll down
-
-//    var didScroll;
-//    var lastScrollTop = 0;
-//    var delta = 5;
-//    const nav = document.querySelector('#fh5co-header-section');
-//    var navbarHeight = $('header').outerHeight();
-//    
-//
-//    $(window).scroll(function(event){
-//        didScroll = true;
-//    });
-//
-//    setInterval(function() {
-//        if (didScroll) {
-//            hasScrolled();
-//            didScroll = false;
-//        }
-//    }, 250);
-//
-//    function hasScrolled() {
-//        var st = document.documentElement.scrollTop;
-//        //console.log(st, lastScrollTop, navbarHeight);
-//        // Make sure they scroll more than delta
-//        if(Math.abs(lastScrollTop - st) <= delta)
-//            return;
-//        
-//
-//        // If they scrolled down and are past the navbar, add class .nav-up.
-//        // This is necessary so you never see what is "behind" the navbar.
-////        console.log('has scroll');
-//        if (st > lastScrollTop && st > navbarHeight){
-//            // Scroll Down
-////            $('header').addClass('nav-up');
-//            nav.className = 'nav-up';
-//        } else {
-//            // Scroll Up
-//            if(st + $(window).height() < $(document).height()) {
-//                nav.className = '';
-//                nav.style.background = 'white';
-//                //$('header').removeClass('nav-up');
-//            }   
-//        }
-//
-//        lastScrollTop = st;
-//    }
-
-$(window).on("scroll", function() {
-	if($(window).scrollTop() > 50) {
-		$("header").addClass('headerWhite');
-	} else {
-		//remove the background property so it comes transparent again (defined in your css)
-	   $("header").removeClass('headerWhite');
-	}
-});
+// $(window).on("scroll", function() {
+// 	if($(window).scrollTop() > 50) {
+// 		$("header").addClass('headerWhite');
+// 	} else {
+// 		//remove the background property so it comes transparent again (defined in your css)
+// 	   $("header").addClass('headerWhite');
+// 	}
+// });
 
 // Hide Header on on scroll down
 var didScroll;

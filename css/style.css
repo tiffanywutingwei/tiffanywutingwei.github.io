@@ -148,6 +148,7 @@ figure {
   text-align: center;
   padding-top: 95px;
   margin-bottom: 5em;
+  margin-top: 5em;
 }
 
 .fh5co-project-title h2 {
@@ -243,6 +244,7 @@ figure {
   .fh5co-cover .desc {
     padding-left: 30px;
     padding-right: 15px;
+    padding-top: 95px;
   }
 }
 .fh5co-cover .desc h2 {
@@ -408,12 +410,12 @@ figure {
   left: 0;
   width: 100%;
   z-index: 2;
-  /* background: white; */
+  background-color: #ffffff;
 }
 
-body {
+/* body {
     padding-top: 95px;
-}
+} */
 
 header {
     height: 95px;
@@ -421,6 +423,7 @@ header {
     top: 0;
     transition: top 0.2s ease-in-out;
     width: 100%;
+    background-color: #ffffff;
 }
 
 
@@ -1064,12 +1067,22 @@ header {
   border-color: transparent;
 }
 
+.btn.btn-secondary {
+  border: #212831;
+  border: 1px solid ;
+}
+.btn.btn-secondary:hover, .btn.btn-secondary:active, .btn.btn-secondary:focus {
+  color: #ffffff !important;
+  box-shadow: none;
+  background: #212831;
+}
+
 .js .animate-box {
   opacity: 0;
 }
 
 #fh5co-wrapper {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   position: relative;
 }
 
