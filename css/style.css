@@ -933,16 +933,33 @@ header {
 
 .fh5co-blog {
   margin-bottom: 60px;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+  border-radius:7px;
+  background-color:#ffffff;
+  overflow: hidden;
+  transition:all 0.3s ease-in-out;
 }
+
+.fh5co-blog :hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+
+}
+
 .fh5co-blog a img {
-  margin-bottom: 30px;
+  height: 200px;
   width: 100%;
-  height: 300px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  border-radius: 7px;
+  -webkit-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  -ms-border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
 }
+
+
+
+
 @media screen and (max-width: 768px) {
   .fh5co-blog {
     width: 100%;
@@ -950,6 +967,10 @@ header {
 }
 .fh5co-blog .image-popup {
   opacity: 1;
+  padding-top:30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
 }
 .fh5co-blog .image-popup span {
   display: inline-block;
