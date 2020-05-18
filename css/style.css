@@ -86,6 +86,37 @@ figure {
   align-items: center;
 }
 
+
+.text-link {
+  text-decoration: none;
+  line-height: 1;
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 5px 5px;
+  overflow: hidden;
+  vertical-align: bottom;
+  transition: color .3s ease-out;
+}
+
+.text-link::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: translateY(calc(100% - 2px));
+  width: 100%;
+  height: 100%;
+  background-color: #D2E4FF;
+  transition: transform .25s ease-out;
+}
+
+.text-link:hover::before {
+  transform: translateY(0);
+  transition: transform .25s ease-out;
+}
+/* 
 .underline-magical {
   background-image: linear-gradient(120deg, #feeebf, #212831);
   background-repeat: no-repeat;
@@ -95,7 +126,7 @@ figure {
   &:hover {
    background-size: 100% 88%;
  }
-}
+} */
 
 .shadowed {
   -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.54));
