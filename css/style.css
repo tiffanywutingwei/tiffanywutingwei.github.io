@@ -130,8 +130,8 @@ figure {
 } */
 
 .shadowed {
-  -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.54));
-  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.54));
+  -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
 }
 
 .fa-ic-round {
@@ -963,9 +963,9 @@ header {
 
 .fh5co-blog {
   margin-bottom: 60px;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #e5e5e5;
+  -webkit-box-shadow: 3px 3px 5px 6px #e5e5e5;
+  box-shadow:         3px 3px 5px 6px #e5e5e5;
   border-radius:7px;
   background-color:#ffffff;
   overflow: hidden;
