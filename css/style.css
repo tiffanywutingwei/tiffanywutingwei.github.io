@@ -130,9 +130,23 @@ figure {
 } */
 
 .shadowed {
-  -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
-  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+  -webkit-filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.15));
 }
+/* 
+.mockup-phone {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mockup-screen {
+  position: relative;
+  width: 89%;
+  left: 1.5em;
+  top: 0;
+} */
+
 
 .fa-ic-round {
   font-size: 45px;
