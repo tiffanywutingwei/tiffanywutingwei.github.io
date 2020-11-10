@@ -294,6 +294,7 @@ input[type=text] {
   text-align: center;
 }
 
+
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: inherit;
@@ -745,6 +746,7 @@ header {
     height: 400px;
   }
 }
+
 .fh5co-grid .image-popup {
   position: absolute;
   top: 0;
@@ -825,6 +827,11 @@ header {
 
 .fh5co-project-overview {
   padding-top: 0;
+}
+
+.fh5co-cover.fh5co-cover_2 {
+  height: inherit;
+  padding: 3em 0;
 }
 
 
@@ -1037,6 +1044,7 @@ header {
 
 
 
+
 @media screen and (max-width: 768px) {
   .fh5co-blog {
     width: 100%;
@@ -1204,6 +1212,7 @@ header {
   -o-transform: translateX(-240px);
   transform: translateX(-240px);
 }
+
 
 @media screen and (max-width: 768px) {
   #fh5co-menu-wrap {
