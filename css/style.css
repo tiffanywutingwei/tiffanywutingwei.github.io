@@ -111,13 +111,13 @@ input[type=text] {
 
 .card-desc {
   line-height: 1.3;
-  margin-bottom: 5px;
+  margin-bottom: ;
 }
 
 .project-card:hover .fh5co-grid {
   transition: all .4s ease;
   -webkit-transition: all .4s ease;
-  background-size: 120%;
+  background-size: 115%;
 }
 
 .text-link {
@@ -730,7 +730,7 @@ header {
 
 .fh5co-grid {
   height: 400px;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
   margin-bottom: 30px;
   position: relative;
