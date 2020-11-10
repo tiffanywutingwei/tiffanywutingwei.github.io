@@ -111,7 +111,7 @@ input[type=text] {
 
 .card-desc {
   line-height: 1.3;
-  margin-bottom: ;
+  margin-bottom: 5px;
 }
 
 .project-card:hover .fh5co-grid {
