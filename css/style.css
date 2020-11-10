@@ -115,8 +115,8 @@ input[type=text] {
 }
 
 .project-card:hover .fh5co-grid {
-  transition: all .4s ease;
-  -webkit-transition: all .4s ease;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
   background-size: 115%;
 }
 
