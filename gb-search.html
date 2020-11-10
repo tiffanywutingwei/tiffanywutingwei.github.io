@@ -46,6 +46,8 @@
 
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -74,8 +76,21 @@
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'UA-112406252-1');
+			gtag('config', 'UA-112406252-1');
+			
+
+			function validatePass(){
+				if(document.getElementById('password').value == 'tiffanywutingwei'){
+					return true;
+				}else{
+					alert("Oops, this is not the right password. Contact me if you'd like to read the case study!");
+					return false;
+				}
+			}
+						
 		</script>
+
+	
 
 	</head>
 	<body>
@@ -185,8 +200,14 @@
 			<div class="container" id="fh5co-project">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 col-sm-offset-1">
-						<h2>🤫</h2>
-						<h3>This project is currently subject to a non-disclosure agreement (NDA). Contact me to learn more!</h3>
+						<h2>🏃🏻‍♀️</h2>
+						<h3>This project is currently in progress. Contact me to learn more!</h3>
+						<br>
+
+						<p style="margin:0">If you have password🔑, enter it here:</p>
+						<input style="height: 2em" id='password' type='text' />
+						<a class="btn btn-primary" onclick="javascript:return validatePass()" href="https://www.notion.so/Search-UX-in-SAP-Ariba-Guided-Buying-5c96ba5425a349ddbb2bb8405ab9854b" >View case study</a>
+						
 					</div>
 
 				</div>
@@ -272,8 +293,7 @@
         });
 	</script>
 
-	<!-- Main JS (Do not remove) -->
-	<script src="js/main.js"></script>
+	
 
 	</body>
 </html>
