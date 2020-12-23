@@ -149,7 +149,7 @@
 		  
          
          $('div#scroll-bar').width(scrolled + "%");
-		$('div#scroll-bar').css("background-color", scrollColor);
+		$('div#scroll-bar').css("background-color", "#212121");
 		
     });
     
