@@ -49,6 +49,7 @@ h1, h2, h3, h4 {
   font-family: "Nunito Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
+  line-height: 1.5em;
 }
 
 h5 {
@@ -66,6 +67,7 @@ h6 {
   font-weight: 600;
   margin: 0 0 5 0;
 }
+
 
 strong {
  color: #212121;
@@ -88,6 +90,11 @@ input[type=text] {
   background-color: rgba(119, 119, 119, 0.2);
   color: inherit;
   font-weight: 400;
+}
+
+.image-caption {
+  line-height: 1.3em;
+  font-style: italic;
 }
 
 .image-padding {
@@ -233,6 +240,20 @@ input[type=text] {
   margin-bottom: 10px;
 }
 
+div .callout-background {
+  padding: 3em;
+  background-color: #05427F;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+div .flexible-block {
+  background-color: #F9F9F9;
+  height: 13em;
+  padding: 2em;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
 
 @media screen and (max-width: 768px) {
   .fh5co-cover,
